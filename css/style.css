@@ -13,7 +13,6 @@
 
 html, body{
    height: 100vh;
-   
 }
 
 body{
@@ -33,7 +32,7 @@ header nav ul{
 }
 
 header nav ul li{
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 .cabecalho{
@@ -59,6 +58,9 @@ section{
     margin-bottom: 20px;
     border-radius: 10px;
     padding: 10px;
+    width: 310px;
+    align-items: center;
+    justify-items: center;
 }
 
 .ficha{
@@ -108,6 +110,7 @@ section{
     margin-top: 10px;
     display: flex;
     margin-bottom: 10px;
+    margin-right: auto;
 }
 
 .title-sections h2{
@@ -213,12 +216,12 @@ progress::-webkit-progress-bar{
 
 
 .section-projetos img{
-    width: 375px;
-    height: 211px;
+    width: 280px;
+    height: 158px;
 }
 
 footer{
-    padding: 10px;
+    padding: 13px;
     text-align: center;
     background-color: var(--cor-principal);
     color: white;
