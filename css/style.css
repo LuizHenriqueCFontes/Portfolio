@@ -58,7 +58,7 @@ header nav ul li{
 main{
     display: grid;
     grid-template-rows: auto 1fr;
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 24px 4fr 24px;
     align-content: center;
     justify-content: center;
     margin-top: 70px;
