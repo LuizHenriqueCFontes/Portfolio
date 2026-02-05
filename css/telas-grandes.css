@@ -1,0 +1,14 @@
+/*Config para telas grandes*/
+
+@media screen and (min-width: 1024px) {
+    .img-projetos{
+        aspect-ratio: 1 / 1;
+        height: 250px;
+    }
+
+    .img-projetos img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

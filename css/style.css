@@ -236,10 +236,13 @@ progress::-webkit-progress-bar{
     background-color: rgba(211, 211, 211, 0.571);
 }
 
+.img-projetos{
+    text-align: center;
+}
 
 .section-projetos img{
-    width: 230px;
-    height: 158px;
+    width: 100%;
+    height: auto;
 }
 
 footer{
