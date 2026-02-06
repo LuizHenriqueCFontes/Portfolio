@@ -6,6 +6,10 @@
         grid-template-columns: 24px 240px 1fr 1fr 24px;
     }
 
+    section{
+        padding: 10px;
+    }
+
     .home{
         display: none;
     }
@@ -33,7 +37,7 @@
 
     .detalhes section{
         width: 100%;
-        padding: 5px;
+        padding: 13px;
     }
 
     .ajustes{

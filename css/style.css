@@ -181,7 +181,6 @@ progress{
     background-color: var(--cor-secundaria);
     margin-bottom: 10px;
     border-radius: 10px;
-    -webkit-tap-highlight-color: transparent;
 }
 
 .form-list p{
@@ -206,17 +205,6 @@ progress{
     padding: 10px;
     border-radius: 10px;
     transition: 0.5s;
-    -webkit-tap-highlight-color: transparent;
-}
-
-.form-list div:hover{
-    margin-left: 15px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-}
-
-.form-list li:hover{
-    background-color: var(--cor-principal);
 }
 
 .alteracao-form{
@@ -263,4 +251,30 @@ footer a{
 
 footer a:hover{
     transform: scale(1.1);
+}
+
+/*Config caso o dispositivo tenha mouse, para utilizar o hover*/
+@media (hover:hover){
+    .form-list div:hover{
+        transform: translateX(15px);
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .form-list li:hover{
+        background-color: var(--cor-principal);
+    }
+}
+
+/*Config de hover, so que active, em dispositivos de touch*/
+@media (hover: none){
+    .form-list div:active{
+        transform: translateX(15px);
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .form-list li:active{
+        background-color: var(--cor-principal);
+    }
 }
