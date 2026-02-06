@@ -26,11 +26,11 @@ body{
 
 header{
     background-color: var(--cor-principal);
-    margin-bottom: 40px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 1000;
 }
 
 header nav ul{
@@ -181,6 +181,7 @@ progress{
     background-color: var(--cor-secundaria);
     margin-bottom: 10px;
     border-radius: 10px;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .form-list p{
@@ -205,6 +206,7 @@ progress{
     padding: 10px;
     border-radius: 10px;
     transition: 0.5s;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .form-list div:hover{
@@ -260,5 +262,5 @@ footer a{
 }
 
 footer a:hover{
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
