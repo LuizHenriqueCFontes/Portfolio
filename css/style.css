@@ -176,6 +176,17 @@ progress{
     padding: 10px;
 }
 
+.form-list div:hover{
+    transform: translateX(15px);
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    cursor: pointer;
+}
+
+.form-list li:hover{
+    background-color: var(--cor-principal);
+}
+
 .form-list li{
     background-color: var(--cor-secundaria);
     margin-bottom: 10px;
@@ -250,18 +261,4 @@ footer a{
 
 footer a:hover{
     transform: scale(1.1);
-}
-
-/*Efeito hover para caso o dispositivo suporta-lo*/
-@media (hover:hover){
-    .form-list div:hover{
-        transform: translateX(15px);
-        border-top-left-radius: 0px;
-        border-bottom-left-radius: 0px;
-        cursor: pointer;
-    }
-
-    .form-list li:hover{
-        background-color: var(--cor-principal);
-    }
 }
