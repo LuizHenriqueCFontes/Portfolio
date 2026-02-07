@@ -3,6 +3,7 @@
 Bem‑vindo ao meu repositório pessoal.
 Este é um site estático que apresenta as habilidades, formação e projetos desenvolvidos por mim, construído com HTML e CSS e publicado no GitHub Pages.
 
+---
 
 🚀 Sobre o Portfólio
 
@@ -13,6 +14,7 @@ Este portfólio apresenta:
 🧑‍💻 Quem sou
  Atualmente cursando Técnico em Desenvolvimento de Sistemas, com foco em desenvolvimento Full Stack.
 
+---
 
 💡 Minhas Skills
 
@@ -34,11 +36,14 @@ Trabalho em equipe – 90%
 
 Adaptabilidade – 85%
 
+---
+
 
 🎓 Formação e Certificações
 
 Detalha cursos e certificações concluídos ou em andamento, como o curso técnico no Senac DF e certificações da Cisco Networking Academy.
 
+---
 
 🛠 Projetos
 
@@ -50,6 +55,7 @@ Projeto Android – conteúdo sobre sistema Android com imagens dinâmicas.
 
 Projeto Cordel – exemplo de efeito parallax com conteúdo criativo.
 
+---
 
 🛠 Tecnologias Utilizadas
 
@@ -59,6 +65,7 @@ HTML – estrutura semântica da página
 
 CSS – estilos e layout responsivo
 
+---
 
 GitHub Pages – hospedagem estática gratuita
 
