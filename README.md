@@ -7,10 +7,10 @@ Este é um site estático que apresenta as habilidades, formação e projetos de
 
 Este portfólio apresenta:
 
-🔹 Quem sou
+🧑‍💻 Quem sou
  Atualmente cursando Técnico em Desenvolvimento de Sistemas, com foco em desenvolvimento Full Stack.
 
-🔹 Minhas Skills
+💡 Minhas Skills
 
 Uma lista de habilidades técnicas e interpessoais com níveis de domínio, incluindo:
 
@@ -30,11 +30,11 @@ Trabalho em equipe – 90%
 
 Adaptabilidade – 85%
 
-🔹 Formação e Certificações
+🎓 Formação e Certificações
 
 Detalha cursos e certificações concluídos ou em andamento, como o curso técnico no Senac DF e certificações da Cisco Networking Academy.
 
-🔹 Projetos
+🛠 Projetos
 
 Apresenta alguns projetos com imagens ilustrativas e descrições, tais como:
 
@@ -54,10 +54,8 @@ CSS – estilos e layout responsivo
 
 GitHub Pages – hospedagem estática gratuita
 
-🗂 Estrutura do Projeto
-
-A estrutura típica deste repositório pode ser assim:
-
+📂 Estrutura do projeto
+Minha organização do portfólio segue a estrutura abaixo:
 portfolio/
 ├─ index.html
 ├─ css/
